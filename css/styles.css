@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	font-family: Poppins, Helvetica, Arial;
+}
+
+.parallax {
+	opacity: 0.5;
+	height: 70vh;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	height: 33vh;
+	font-family: Candara, Arial;
+	font-size: 36px;
+	padding: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+#section-1 {
+	background-color: #31708e;
+}
+#section-2 {
+	background-color: #5085a5;
+}
+
+#section-3 {
+	background-color: #8fc1e3;
+}
+
+#section-4 {
+	background-color: #f7f9fb;
+	color: #31708e;
+}
+
+h1 {
+	color: #31708e;
+}
+
+#img-1 {
+	background-image: url('../images/liv-1.jpg');
+}
+
+#img-2 {
+	background-image: url('../images/liv-2.jpg');
+}
+
+#img-3 {
+	background-image: url('../images/liv-3.webp');
+}
+
+#img-4 {
+	background-image: url('../images/liv-4.jpg');
+}
+
+#img-5 {
+	background-image: url('../images/liv-5.jpg');
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 15px 20px;
+	background-color: #f7f9fb;
+}
+
+footer {
+	text-align: center;
+	background-color: #f7f9fb;
+	padding: 15px 20px;
+	color: #31708e;
+}
+
+#contact-button {
+	padding: 20px;
+	width: 150px;
+	height: 50px;
+	font-family: Candara, Arial, Helvetica;
+	font-size: 20px;
+	display: flex;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	background-color: white;
+	color: #013750;
+	opacity: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
